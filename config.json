@@ -1,0 +1,17 @@
+{
+    "modbus_host": "169.254.174.249",
+    "modbus_port": 502,
+    "poll_interval_sec": 5,
+    "registers": {
+      "PT101_Rosemount_Bottom": {"address": 30, "description": "Rosemount Bottom"},
+      "PT102_WIKA_Top": {"address": 13, "description": "WIKA P31 Top of Tank"},
+      "PT201_WIKA_Bottom": {"address": 9, "description": "WIKA P31 Bottom"},
+      "PT202_WIKA_2nd": {"address": 10, "description": "WIKA P31 2nd"},
+      "PT203_WIKA_3rd": {"address": 11, "description": "WIKA P31 3rd"},
+      "PT204_WIKA_4th": {"address": 12, "description": "WIKA P31 4th"},
+      "PT301_Rosemount_2088": {"address": 31, "description": "Rosemount 2088"},
+      "PT302_WIKA_Wellhead": {"address": 14, "description": "WIKA P31 Wellhead"},
+      "PT303_Rosemount_2088": {"address": 32, "description": "Rosemount 2088"}
+    }
+  }
+  
